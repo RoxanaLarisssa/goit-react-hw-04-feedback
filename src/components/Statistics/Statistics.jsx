@@ -9,7 +9,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     bgColor = `rgba(${255 * (1 - greenIntensity)}, 255, 0, 1)`;
   } else {
     const yellowIntensity = positivePercentage / 50;
-    bgColor = `rgba(255, ${255 * yellowIntensity}, 0, 1)`;
+    bgColor = `rgba(255, ${255 * yellowIntensity}, 0, 3)`;
   }
 
   return (
